@@ -52,7 +52,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamInflex")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/InflexSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -71,7 +71,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAHHpwsAl4UH6ePetq-62OEwEkKzE0oHOQuZWxE6-OV8knbuWxWdMIYC1I_ZnnRNJp41jODeydpRS1SA_V09Uc-oDkenlYrFgoMkminOujikPiGLg3CGb08fuYypC6uwXeZBug65lCuF8fxXoezukpFNfbX5xZCnlol-xqgQxqMW8iuEBkHwjV3zcYZeHaVzcCsrkeCM7KRoySfagQJGhwsbwAjhnrwPW-LHUeB9oLlq12KaYl2KpuxOjjymi0uYSB61UH-p5tgI70Few_-xG5C8FORXVgjPrQuC8HPsN2hpekKdQ-DlY_eqD71LSioSYSYB_S4eJdNmnkZk4xbcMMct9z6npwAAAABhFJFmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
